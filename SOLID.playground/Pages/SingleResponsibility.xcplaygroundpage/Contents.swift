@@ -1,7 +1,7 @@
 //: [Previous](@previous)
 
 import Foundation
-
+// A class should have only one responsibility or a class should have only one reason to change
 struct User: CustomStringConvertible {
     let username: String
     let displayName: String
